@@ -1,5 +1,5 @@
 # TO-DO Project | CRUD | MVC
-This portfolio was built while I was attending NPower coding.
+This project is a to-do list that uses CRUD and MVC principals
 
 **Link to project: Coming Soon!
 
