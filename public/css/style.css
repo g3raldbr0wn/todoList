@@ -1,10 +1,78 @@
-h1{
-    color: red;
+body{
+    font-size: 18px;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #000814;
 }
+h1{
+    color: #FFD60A;
+}
+h2{
+    color: #001D3D;
+    font-size: 1.2rem;
+}
+a{
+    color: #FFD60A;
+}
+img{
+   width: 1rem;
+}
+.del{
+    /* This pushes my img to create space between the item and the trash can icon. */
+    width: 3%;
+}
+
+/*********************************** Form *****************************/
+
+input[type=submit]{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #FFC300;
+    border: none;
+    border-radius: 50px;
+    color: #003566;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  input[type=text]{
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    color: #003566;
+    padding: 16px 32px;
+    /* text-decoration: none; */
+    margin: 4px 2px;
+  }
+
+
+/* Changes when the user clicks the text */
 .completed{
     text-decoration: line-through;
     color: gray;
 }
 .not{
     text-decoration: underline;
+    color: #FFD60A;
 }
+
+/***************************** Main Section ************************/
+
+.mainSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #003566;
+    height: 100vh;
+}
+.list{
+    color: #FFD60A;
+    
+}
+.todoItem{
+    cursor: pointer;
+}
+
+
+
+

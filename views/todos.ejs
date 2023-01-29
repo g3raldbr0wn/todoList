@@ -4,26 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <title>TO-DO G</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Todos</h1>
-    <ul>
+    <section class='mainSection'>
+    <h1 class ='list'>To-do's</h1>
+    <ul class="list">
     <% todos.forEach( el => { %>
-        <li class='todoItem' data-id='<%=el._id%>'>
+        <li class='todoItem list' data-id='<%=el._id%>'>
             <span class='<%= el.completed === true ? 'completed' : 'not'%>'><%= el.todo %></span>
-            <span class='del'> Delete </span>
+            <span class='del list'><img src="assets/delete.png" alt="delete"></span>
         </li>
     <% }) %>    
     </ul>
 
-    <h2>Things left to do: <%= left %></h2>
+    <h2 class="list">Things left to do: <%= left %></h2>
 
-    <form action="/todos/createTodo" method='POST'>
-        <input type="text" placeholder="Enter Todo Item" name='todoItem'>
+    <form class="list" action="/todos/createTodo" method='POST'>
+        <input type="text" placeholder="Enter To-do Item" name='todoItem'>
         <input type="submit">
     </form>
+    </section>
 
     <script src="js/main.js"></script>
 </body>
