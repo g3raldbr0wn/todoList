@@ -2,6 +2,7 @@
 This project is a to-do list that uses CRUD and MVC principals
 
 **Link to project: Coming Soon!
+![todo](https://user-images.githubusercontent.com/27866832/215332586-a2cba492-97af-4bbc-8a36-42a42de3d9a4.png)
 
 
 ## How It's Made:
