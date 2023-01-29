@@ -6,7 +6,7 @@ This project is a to-do list that uses CRUD and MVC principals
 
 ## How It's Made:
 
-Tech used: HTML, CSS, JavaScript, and Node
+Tech used: HTML, CSS, JavaScript, Node, EJS, and Mongoose
 
 This to-do app was created to solidify my learning with CRUD and MVC. I use Node for the backend, creating my api to perform CRUD applications. Also, I comply with MVC by creating a separation of concerns allowing for a much more organized file system.
 
