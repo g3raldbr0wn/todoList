@@ -24,12 +24,14 @@
     <% }) %>    
     </ul>
 
-    <h2 class="list">Things left to do: <%= left %></h2>
+    <h2 class="list"><%= user.userName %> has <%= left %> Things left to do: <%= left %></h2>
 
     <form class="list" action="/todos/createTodo" method='POST'>
         <input type="text" placeholder="Enter To-do Item" name='todoItem'>
         <input type="submit">
     </form>
+
+      <a href="/logout">Logout</a>
     </section>
 
     <script src="js/main.js"></script>
